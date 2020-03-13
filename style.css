@@ -1,7 +1,7 @@
 /* Element selector [Tag] */
 body{
     
-    border: solid 10px lightgray;
+ /*   border: solid 10px lightgray;*/
     background-color:gray;
     margin: 10px;
 
@@ -48,3 +48,15 @@ nav > ul > li > a{
 nav > ul > li:hover {
     background-color: blue;
 }
+
+img{
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+    float: left;
+}
+
+#clear{
+    clear: left;    
+}
+
