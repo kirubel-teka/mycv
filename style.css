@@ -8,11 +8,11 @@ body{
 }
 header{
     background-color: rgba(red,red,red, red);
- /*   position: absolute;
+    position: absolute;
     top: 50px;
-    right: 10px;
-*/
-    position: fixed;
+    left: 10px;
+
+/*    position: fixed;*/
 }
 section{
   /*  border: solid 1px;*/
@@ -60,3 +60,7 @@ img{
     clear: left;    
 }
 
+#content{
+    background-color: gold;
+    border: 30px solid gray;
+}

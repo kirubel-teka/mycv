@@ -57,35 +57,46 @@ body{
 <div id="content">
 <!--one post-->
     <section>
-<p class="title">My first post</p>
+<p class="title">4) Does it matter to use relative size(%,em,rem) one styling the size of an element so that the element is responsive ? Why ? [write your argument]</p>
 <article>
 
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ea consequatur laboriosam distinctio et autem, numquam quos voluptate quidem voluptas unde, voluptatibus ut. Tempora.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ea consequatur laboriosam distinctio et autem, numquam quos voluptate quidem voluptas unde, voluptatibus ut. Tempora.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ea consequatur laboriosam distinctio et autem, numquam quos voluptate quidem voluptas unde, voluptatibus ut. Tempora.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ea consequatur laboriosam distinctio et autem, numquam quos voluptate quidem voluptas unde, voluptatibus ut. Tempora.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ea consequatur laboriosam distinctio et autem, numquam quos voluptate quidem voluptas unde, voluptatibus ut. Tempora.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ea consequatur laboriosam distinctio et autem, numquam quos voluptate quidem voluptas unde, voluptatibus ut. Tempora.</p>
-
-
-
+<p>It actually matters to use relative size because they help you to achieve a harmoniuos and balanced design
+According to W3C 1 rem unit is defined as equal to the font size of the html element of default value 16px 
+When we look at em units the big problem here is that they are relative to the font size of their own element
+As such they can cascade and cause unexpected results.On the other hand the main issue with using rem for
+font sizing is that the values are somewhat difficult to use which makes them inconvenient for making calculations.
+</p>
 </article>
 <p class="date">Date,March 12, 2020</p>
-<P class="title">My second posts</P>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ea consequatur laboriosam distinctio et autem, numquam quos voluptate quidem voluptas unde, voluptatibus ut. Tempora.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ea consequatur laboriosam distinctio et autem, numquam quos voluptate quidem voluptas unde, voluptatibus ut. Tempora.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ea consequatur laboriosam distinctio et autem, numquam quos voluptate quidem voluptas unde, voluptatibus ut. Tempora.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ea consequatur laboriosam distinctio et autem, numquam quos voluptate quidem voluptas unde, voluptatibus ut. Tempora.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ea consequatur laboriosam distinctio et autem, numquam quos voluptate quidem voluptas unde, voluptatibus ut. Tempora.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ea consequatur laboriosam distinctio et autem, numquam quos voluptate quidem voluptas unde, voluptatibus ut. Tempora.</p>
-<p class="date">Date, March 20,2020</p>
-<p class="title">My third post</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ea consequatur laboriosam distinctio et autem, numquam quos voluptate quidem voluptas unde, voluptatibus ut. Tempora.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ea consequatur laboriosam distinctio et autem, numquam quos voluptate quidem voluptas unde, voluptatibus ut. Tempora.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ea consequatur laboriosam distinctio et autem, numquam quos voluptate quidem voluptas unde, voluptatibus ut. Tempora.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ea consequatur laboriosam distinctio et autem, numquam quos voluptate quidem voluptas unde, voluptatibus ut. Tempora.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ea consequatur laboriosam distinctio et autem, numquam quos voluptate quidem voluptas unde, voluptatibus ut. Tempora.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ea consequatur laboriosam distinctio et autem, numquam quos voluptate quidem voluptas unde, voluptatibus ut. Tempora.</p>
+<P class="title">5) We said 16px is default browser width so what does it mean when we say 200px ? How does the browser interpret that ? </P>
+<p>computing the font size we assume the root element's font size is 16px and every element with rem is relative to the root therefore the 
+browser interprets this as 12.5 rem equals to 200px
+</p>
+<p class="title">6) Explain in detail(in technical terms) the specific changes in css3 </p>
+<p>The latest version of css is designed to make new features shine.This version makes web development and documenting easier
+    It provides an increased level of flexibility to make presentation of the web content easier to note some latest features
+</p>
+<h4>1) Box shadows</h4>
+<p>This is a new feature that enables a content to slide under another area such as footer.The process is doesnt require javascript plugin</p>
+<h4>2) CSS3 Selectors</h4>
+<p>Here the selectors in the previous version have been updated and improved.Using these selectors,choosing DOM elements
+    on the basis of their attributes is easy.No need to specify classes and IDs for every element instead using field elements for styling.
+</p>
+<h4>3) Font Additions</h4>
+<p>Adding fonts in CSS3 is so easy simply link to your css file and choose the desired fonts you prefer.</p>
+<h4>4) Rounded Corners</h4>
+<p>This feature helps the designer for specifying height,width and positioning of multiple elements by providing us border-radius</p>
+<h4>5) Border Images</h4>
+<p>Another fantastic feature that came along with this css verison is the introduction of border images which makes you to 
+    exchange border with images.
+<h4>6) Opacity levels</h4>
+<p>Earlier to this version designers needed to use css filters or other images to achieve the effects that they needed but in this version
+    it is all able to be done with a single line of code 'opacity:1.5' to get desired effects.
+</p>
+<h4>7) Transform</h4>
+<p>This function allows how big an area would become when hover.</p>
+<h4>8) Text Shadow</h4>
+<p>In the previous versions of css the designer has to either use an image or duplicate text element and then position it</p>
 <p class="date">Date March 30, 2020</p>
 
 
@@ -104,11 +115,11 @@ body{
 
 
 <!--Inline Style-->
+<!--
 <p style="color:red">This is Styling</p>
 <p>This is style 2</p>
 <p>This is style 3></p>
-
-
+-->
 
 </body>
 
